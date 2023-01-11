@@ -1,0 +1,36 @@
+@media (min-width: 1366px) {
+	.pictures {
+		grid-template-columns: 360px 360px 360px;
+		grid-template-rows: auto;
+		row-gap: 20px;
+		column-gap: 20px;
+	}
+
+	.container {
+		overflow: hidden;
+		max-width: 1160px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+
+	.picture {
+		width: 360px;
+		height: 275px;
+	}
+
+	.time-select {
+		width: 95px;
+		height: 45px;
+	}
+
+	.active-Created {
+		height: 130px;
+	}
+
+	.time-inputs {
+		height: auto;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+}

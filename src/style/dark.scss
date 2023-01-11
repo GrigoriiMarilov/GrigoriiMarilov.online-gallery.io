@@ -1,0 +1,92 @@
+.dark-theme {
+	background-color: #000000;
+	$app-color: #000000;
+	color: #ffffff;
+
+
+
+	.input {
+		color: #ffffff;
+		background: #0C0C0C;
+		border: 1px solid #FFFFFF;
+		outline: none;
+	}
+
+	.input:focus {
+		outline: none;
+		color: #ffffff;
+		background: #0C0C0C;
+		border: 1px solid #FFFFFF;
+	}
+
+	.select {
+		color: #ffffff;
+		background: #0C0C0C;
+		border: 1px solid #FFFFFF;
+	}
+
+	.opt:hover {
+		background: #ffffff;
+		color: #000000
+	}
+
+	.select-head-active {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	.arrow {
+		fill: #ffffff;
+	}
+
+	.cell {
+		border: 1px solid #ffffff;
+		border-left: 0.5px solid #ffffff;
+		border-right: 0.5px solid #ffffff;
+	}
+
+	.active-cell {
+		background-color: #FFFFFF;
+	}
+
+	.page-number {
+		color: #FFFFFF;
+	}
+
+	.arrow-p {
+		fill: #FFFFFF
+	}
+
+	.active-n {
+		color: #000000;
+	}
+
+
+	.cell:hover {
+		background: #EDEDED;
+	}
+
+	.cell:hover {
+		background-color: #464646;
+	}
+
+	.active-cell:hover {
+		background-color: #ffffff;
+	}
+
+	.cell:disabled:hover {
+		background: #000000;
+	}
+
+	.cell:disabled {
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		border-left: 0.5px solid rgba(255, 255, 255, 0.3);
+		border-right: 0.5px solid rgba(255, 255, 255, 0.3);
+
+		.arrow-p {
+			opacity: 0.3;
+		}
+	}
+
+
+
+}

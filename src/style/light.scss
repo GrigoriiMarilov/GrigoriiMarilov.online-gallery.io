@@ -1,0 +1,92 @@
+.light-theme {
+	background-color: #ffffff;
+	$app-color: #ffffff;
+	color: #000000;
+
+
+	.input {
+		outline: none;
+		background: #FFFFFF;
+		border: 1px solid rgba(0, 0, 0, 0.3);
+	}
+
+	.input:focus {
+		outline: none;
+		border: 1px solid rgb(0, 0, 0);
+	}
+
+	.select {
+		background: #FFFFFF;
+		border: 1px solid rgba(0, 0, 0, 0.3);
+	}
+
+	.select-active {
+		border: 1px solid rgb(0, 0, 0);
+	}
+
+	.opt:hover {
+		background: #000000;
+		color: #ffffff;
+	}
+
+	.select-head-active {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	}
+
+	.arrow {
+		fill: #000000;
+	}
+
+	.whiteline {
+		background-color: #000000;
+	}
+
+	.time-select {
+		background: #EFEFEF
+	}
+
+	.page-number {
+		color: #000000;
+	}
+
+	.active-n {
+		color: #FFFFFF;
+	}
+
+	.arrow-p {
+		fill: #000000;
+	}
+
+	.active-cell {
+		background-color: #000000;
+	}
+
+	.cell:hover {
+		background: #EDEDED;
+	}
+
+	.active-cell:hover {
+		background-color: #000000;
+	}
+
+	.cell:disabled:hover {
+		background: #ffffff;
+	}
+
+	.cell:disabled {
+		border: 1px solid rgba(0, 0, 0, 0.3);
+		border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+		border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+
+		.arrow-p {
+			opacity: 0.3;
+		}
+	}
+
+	.cell {
+		border: 1px solid black;
+		border-left: 0.5px solid black;
+		border-right: 0.5px solid black;
+	}
+
+}

@@ -1,0 +1,112 @@
+@media (min-width: 767px) {
+	header {
+		height: 134px;
+	}
+
+	.container {
+		padding: 0 34px;
+	}
+
+	.filter-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		height: 45px;
+	}
+
+	.input {
+		min-width: 160px;
+		font-size: 13px;
+		margin-right: 20px;
+	}
+
+	.select {
+		min-width: 160px;
+		margin-right: 20px;
+	}
+
+	.select-head {
+		font-size: 13px;
+	}
+
+	.Author {
+		position: relative;
+		top: 0;
+		z-index: 10;
+	}
+
+	.Location {
+		position: relative;
+		top: 0;
+		z-index: 9;
+	}
+
+	.Created {
+		position: relative;
+		top: 0;
+		z-index: 8;
+		margin-right: 0px;
+	}
+
+	.select-active {
+		max-height: 400px;
+		top: 0;
+		z-index: 80
+	}
+
+	.active-Created {
+		max-height: 205px;
+		height: 205px;
+		top: 0;
+
+
+
+
+	}
+
+	.options {
+		height: 355px;
+		margin-bottom: 10px;
+	}
+
+	.active-Created {
+		max-height: auto;
+		height: auto;
+		top: 0;
+		z-index: 0
+	}
+
+	.pictures {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		row-gap: 20px;
+		column-gap: 20px;
+	}
+
+	.picture {
+		max-height: 32.421875vw;
+	}
+
+	.pagination-block {
+
+		margin: 40px 0 54px 0;
+		transform: translateX(0);
+	}
+
+	.Created {
+		.options {
+			padding: 0;
+		}
+	}
+
+	.time-inputs {
+		height: auto;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.whiteline {
+		margin: 15px 7px;
+	}
+}
